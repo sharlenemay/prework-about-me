@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+    
+    <script type="text/javascript" src="javascript.js"></script>
+    
+    <style>
+        #box {
+            height:150px;
+            width: 150px;
+            background-color: orange;
+            margin: 25px;
+        }
+
+        #growbox {
+            height: 250px;
+            width: 150px;
+            background-color: orange;
+            margin: 25px;
+        }
+
+        #bluebox {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            margin: 25px;
+        }
+
+        #fadebox {
+            height: 150px;
+            width: 150px;
+            background-color: orange;
+            opacity: 50%;
+            margin: 25px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <div id="box"></div>
+
+    <button id="button1" onClick="grow()">Grow</button>
+    <button id="button2" onClick="blue()">Blue</button>
+    <button id="button3" onClick="fade()">Fade</button>
+    <button id="button4" onClick="reset()">Reset</button>
+
+<script>
+
+var div = document.getElementById("box");
+//grow
+function grow() {
+        div.setAttribute("id", "growbox");
+    }
+
+//blue
+function blue() {
+    div.setAttribute("id", "bluebox");
+}
+
+//fade
+function fade() {
+    div.setAttribute("id", "fadebox");
+}
+
+//reset
+function reset() {
+    div.setAttribute("id", "box");
+}
+
+</script>
+
+</body>
+</html>

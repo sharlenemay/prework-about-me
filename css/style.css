@@ -1,70 +1,57 @@
 body {
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
 }
 
-.content-footer,
-.masthead-heading,
-.masthead-intro {
-  text-align: center;
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: black;
+
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('../img/code.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+.red {
+    color: red;
 }
 
-.masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
+.blue {
+    color: blue;
 }
 
-.masthead-heading {
-    margin-top: -0.2em;
+.green {
+    color: green;
+}
+
+.big {
+    font-size: 200%;
+}
+
+.tiny {
+    font-size: 75%;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
     font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
 }
 
-.details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+.font {
+    font-family: Arial;
 }
 
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
-}
-
-.details > h2 {
-    font-size: 1.2em;
+.orange {
+    color: orange;
+    font-size: 200%;
     font-weight: bold;
-    margin: 2em 0 1em 0;
+}
+.styledFont {
+    color: green;
 }
 
-section > h1 {
-    margin-top: 2em;
-}
-
-#footer {
-  padding: 20px 0;
-  text-align: center;
-  background-color: #111111;
-  text-decoration: none;
-}
-
-#footer a {
-  color: #ffffff;
-}
-.social > li {
-  display: inline-block;
-  margin: 0 5px;
+#styledImage {
+    border: 5px solid orange;
 }
